@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
+const Home = () => {
  const posts = [
     {
       id: 1,
@@ -29,7 +29,6 @@ import { Link } from 'react-router-dom'
     },
   ];
 
-const Home = () => {
   return (
     <div className='home'>
       <div className='posts'>
